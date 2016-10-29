@@ -1,7 +1,0 @@
-<templateSet group="Bootstrap">
-  <template name="bsrow" value="&lt;div class=&quot;row&quot;&gt;&#10;    &lt;div class=&quot;col-xs-12&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="New bootstrap row" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML_TEXT" value="true" />
-    </context>
-  </template>
-</templateSet>
