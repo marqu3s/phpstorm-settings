@@ -17,6 +17,7 @@
       <mask>*.mxml</mask>
       <mask>*.php</mask>
       <mask>UtilFunctions*</mask>
+      <mask>*Helper*.php</mask>
     </recentFileMasks>
   </component>
 </application>
