@@ -26,8 +26,12 @@
           <option name="url" value="https://joaomarquesferreirajr@bitbucket.org/joaomarquesferreirajr/jjmf.com.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://joaomarquesferreirajr@bitbucket.org/joaomarquesferreirajr/medathomeionic.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/www" />
+    <option name="cloneParentDir" value="$USER_HOME$/ionic" />
   </component>
 </application>
