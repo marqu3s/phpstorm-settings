@@ -17,7 +17,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6.29">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.29_5/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.29_5/bin/php" path_separator=":" version="5.6.29">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.29_5/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.29_5/bin/php" path_separator=":" version="5.6.29" warning="PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '&quot;' in /usr/local/etc/php/5.6/php.ini on line 2040&#10;Cannot load Xdebug - extension already loaded&#10;">
           <additional_php_ini>/usr/local/etc/php/5.6/conf.d/1-ext-xdebug.ini, /usr/local/etc/php/5.6/conf.d/ext-intl.ini, /usr/local/etc/php/5.6/conf.d/ext-opcache.ini, /usr/local/etc/php/5.6/conf.d/ext-pdo_dblib.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/5.6/php.ini</configuration_file>
           <configuration_options>
@@ -298,7 +298,7 @@
             <configuration_option name="xdebug.profiler_enable" value="0" />
             <configuration_option name="xdebug.profiler_enable_trigger" value="0" />
             <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.profiler_output_dir" value="/tmp" />
+            <configuration_option name="xdebug.profiler_output_dir" value="/var/tmp/" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
@@ -308,7 +308,7 @@
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
             <configuration_option name="xdebug.remote_host" value="localhost" />
             <configuration_option name="xdebug.remote_log" value="" />
-            <configuration_option name="xdebug.remote_mode" value="jit" />
+            <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
             <configuration_option name="xdebug.scream" value="0" />
             <configuration_option name="xdebug.show_error_trace" value="0" />
