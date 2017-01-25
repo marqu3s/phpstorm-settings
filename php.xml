@@ -11,13 +11,13 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/Cellar/php56/5.6.29_5/bin/php" id="f730c8d8-e3b5-4cf1-972f-0eb83927a190" name="PHP 5.6.29" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/opt/php56-xdebug/xdebug.so" />
+      <interpreter home="/usr/local/Cellar/php56/5.6.29_5/bin/php" id="f730c8d8-e3b5-4cf1-972f-0eb83927a190" name="PHP 5.6.29" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6.29">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.29_5/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.29_5/bin/php" path_separator=":" version="5.6.29" warning="Cannot load Xdebug - extension already loaded&#10;">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.29_5/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.29_5/bin/php" path_separator=":" version="5.6.29">
           <additional_php_ini>/usr/local/etc/php/5.6/conf.d/1-ext-xdebug.ini, /usr/local/etc/php/5.6/conf.d/ext-intl.ini, /usr/local/etc/php/5.6/conf.d/ext-opcache.ini, /usr/local/etc/php/5.6/conf.d/ext-pdo_dblib.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/5.6/php.ini</configuration_file>
           <configuration_options>
@@ -306,9 +306,9 @@
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="localhost" />
+            <configuration_option name="xdebug.remote_host" value="127.0.0.1" />
             <configuration_option name="xdebug.remote_log" value="" />
-            <configuration_option name="xdebug.remote_mode" value="jit" />
+            <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
             <configuration_option name="xdebug.scream" value="0" />
             <configuration_option name="xdebug.show_error_trace" value="0" />
