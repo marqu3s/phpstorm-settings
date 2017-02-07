@@ -19,8 +19,8 @@
   <template name="hoje" value="$hoje = date('Y-m-d');" description="Variável com a data atual" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP String Literal" value="true" />
-      <option name="PHP Statement" value="true" />
       <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="psy" value="eval(\Psy\sh());" description="Psysh runtime developer console" toReformat="false" toShortenFQNames="true">
