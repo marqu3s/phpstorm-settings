@@ -4,7 +4,6 @@
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="CARET_BLINKING_PERIOD" value="200" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
-    <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
@@ -12,25 +11,14 @@
     <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
   </component>
   <component name="LiveEditOptions" restartIfHotSwapFailed="true" />
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodoooooo\b.*">
-      <option name="FOREGROUND" value="f6f4ff" />
-      <option name="BACKGROUND" value="a31aa0" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixmeeeee\b.*">
-      <option name="FOREGROUND" value="f6f4ff" />
-      <option name="BACKGROUND" value="a31aa0" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
-    <pattern icon="important" useCustomColors="false" case-sensitive="true" pattern="(# TODO: )\b.*">
-      <option name="FOREGROUND" value="f6f4ff" />
-      <option name="BACKGROUND" value="a31aa0" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
+    <pattern pattern="\btodoooooo\b.*" />
+    <pattern pattern="\bfixmeeeee\b.*" />
+    <pattern icon="important" case-sensitive="true" pattern="(# TODO: )\b.*" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
