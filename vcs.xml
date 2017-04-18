@@ -34,8 +34,12 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="joao@jjmf.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://joaomarquesferreirajr@bitbucket.org/joaomarquesferreirajr/itam.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/ionic" />
+    <option name="cloneParentDir" value="$USER_HOME$/www" />
   </component>
 </application>
