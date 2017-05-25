@@ -5,6 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -15,9 +16,13 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.php</mask>
       <mask>UtilFunctions*</mask>
       <mask>*Helper*.php</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
