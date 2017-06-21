@@ -1,15 +1,19 @@
 <scheme name="EddyAtom" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="0.9" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="Fira Code" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="0.9" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
     <option name="CARET_COLOR" value="c1cbd2" />
     <option name="CARET_ROW_COLOR" value="252b2e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="FILESTATUS_MODIFIED" value="ff" />
-    <option name="GUTTER_BACKGROUND" value="3f4b4e" />
+    <option name="GUTTER_BACKGROUND" value="" />
     <option name="INDENT_GUIDE" value="343f41" />
     <option name="LEFT_GUTTER_BACKGROUND" value="3f4b4e" />
     <option name="LINE_NUMBERS_COLOR" value="81969a" />

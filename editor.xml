@@ -1,32 +1,11 @@
 <application>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="14" />
+    <option name="FONT_SIZE" value="13" />
     <option name="FONT_FAMILY" value="Fira Code" />
     <option name="USE_LIGATURES" value="true" />
-    <option name="SECONDARY_FONT_FAMILY" value="Monospaced" />
   </component>
-  <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
-    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
-    <option name="CARET_BLINKING_PERIOD" value="200" />
-    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
-    <option name="IS_WHITESPACES_SHOWN" value="true" />
-    <option name="IS_CAMEL_WORDS" value="true" />
-    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
-    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
-    <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
-  </component>
-  <component name="LiveEditOptions" restartIfHotSwapFailed="true" />
   <component name="SqlEditorOptions">
     <option name="concatenateStringsOnEnter" value="true" />
     <option name="qualificationType" value="On collisions" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodoooooo\b.*" />
-    <pattern pattern="\bfixmeeeee\b.*" />
-    <pattern icon="important" case-sensitive="true" pattern="(# TODO: )\b.*" />
-  </component>
-  <component name="XmlEditorOptions">
-    <option name="showCssInlineColorPreview" value="true" />
   </component>
 </application>
