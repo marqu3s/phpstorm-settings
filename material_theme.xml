@@ -2,6 +2,5 @@
   <component name="MaterialThemeConfig">
     <option name="selectedTheme" value="DARKER" />
     <option name="highlightColor" value="80cbc4" />
-    <option name="compactSidebar" value="true" />
   </component>
 </application>
