@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Redis Monitor" description="Redis monitor console." showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="/usr/local/Cellar/redis/3.2.9/bin/redis-cli" />
+      <option name="PARAMETERS" value="monitor" />
+      <option name="WORKING_DIRECTORY" value="/usr/local/Cellar/redis/3.2.9/bin/" />
+    </exec>
+  </tool>
+</toolSet>
