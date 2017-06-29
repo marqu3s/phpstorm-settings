@@ -1,11 +1,11 @@
 <templateSet group="PHP">
-  <template name="dump" value="CVarDumper::dump($VAR$, 10, true); die;" description="Yii Vardumper" toReformat="false" toShortenFQNames="true">
+  <template name="dump" value="CVarDumper::dump($VAR$, 10, true); die;" shortcut="SPACE" description="Yii Vardumper" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dump2" value="\yii\helpers\VarDumper::dump($VAR$, 10, true); die;" description="Yii2 dumper" toReformat="true" toShortenFQNames="true">
+  <template name="dump2" value="\yii\helpers\VarDumper::dump($VAR$, 10, true); die;" shortcut="SPACE" description="Yii2 dumper" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
