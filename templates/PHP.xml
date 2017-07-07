@@ -16,7 +16,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="hoje" value="$hoje = date('Y-m-d');" description="Variável com a data atual" toReformat="false" toShortenFQNames="true">
+  <template name="hoje" value="$hoje = date('Y-m-d');" shortcut="SPACE" description="Variável com a data atual" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Expression" value="true" />
       <option name="PHP Statement" value="true" />
