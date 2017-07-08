@@ -21,6 +21,7 @@
         <entry key="yaml" value="true" />
       </map>
     </option>
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
   </component>
   <component name="SqlEditorOptions">
