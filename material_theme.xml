@@ -2,5 +2,8 @@
   <component name="MaterialThemeConfig">
     <option name="selectedTheme" value="DARKER" />
     <option name="highlightColor" value="80cbc4" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="highlightThickness" value="1" />
+    <option name="tabsHeight" value="30" />
   </component>
 </application>

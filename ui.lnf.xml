@@ -1,5 +1,12 @@
 <application>
   <component name="UISettings">
+    <option name="ALLOW_MERGE_BUTTONS" value="false" />
+    <option name="FONT_FACE" value=".SFNSText-Regular" />
     <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="PRESENTATION_MODE_FONT_SIZE" value="20" />
+    <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="USE_SMALL_LABELS_ON_TABS" value="false" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
