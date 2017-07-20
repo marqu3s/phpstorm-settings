@@ -8,10 +8,10 @@
       <mapping pattern="SMSService" type="PHP" />
       <mapping pattern="yiic" type="PLAIN_TEXT" />
       <mapping pattern="api-doc" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="bkp" type="PLAIN_TEXT" />
-      <mapping ext="p12" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="p12" type="PLAIN_TEXT" />
       <mapping ext="yii" type="PLAIN_TEXT" />
       <mapping pattern="ajustes_2013-03-21" type="SQL files" />
     </extensionMap>
