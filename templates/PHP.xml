@@ -5,7 +5,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dump2" value="\yii\helpers\VarDumper::dump($VAR$, 10, true); die;" shortcut="SPACE" description="Yii2 dumper" toReformat="false" toShortenFQNames="true">
+  <template name="dump2" value="\yii\helpers\VarDumper::dump($VAR$, 10, !Yii::$app-&gt;request-&gt;isAjax); die;" shortcut="SPACE" description="Yii2 dumper" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
