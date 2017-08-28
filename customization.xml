@@ -1,10 +1,5 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="Github.Create.Gist" is_action="true" action_type="-1" position="52">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="UpdateCopyright" is_action="true" action_type="-1" position="39">
       <path value="root" />
       <path value="Project View Popup Menu" />

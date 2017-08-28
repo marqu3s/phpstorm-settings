@@ -4,6 +4,11 @@
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
     <option name="highlightThickness" value="1" />
-    <option name="tabsHeight" value="30" />
+    <option name="isContrastMode" value="true" />
+    <option name="accentColor" value="64ffda" />
+    <option name="compactSidebar" value="true" />
+    <option name="tabsHeight" value="40" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="defaultBackground" value="https://raw.githubusercontent.com/mallowigi/material-theme-jetbrains-eap/master/src/main/resources/themes/wall.jpg,60" />
   </component>
 </application>
