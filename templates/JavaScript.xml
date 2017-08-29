@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="ajax" value="$.ajax({&#10;            type: 'POST',&#10;            url: '',&#10;            data: {},&#10;            dataType: 'json',&#10;            success: function(data) {&#10;                &#10;            }&#10;        });" shortcut="SPACE" description="New Ajax request" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
