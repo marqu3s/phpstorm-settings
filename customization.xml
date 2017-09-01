@@ -1,5 +1,15 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="UpdateCopyright" is_action="true" action_type="-1" position="39">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangesView.ApplyPatch" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Vcs.Push" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Main Toolbar" />

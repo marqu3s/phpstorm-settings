@@ -1,6 +1,6 @@
 <application>
   <component name="ApplicationTasksOptions">
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="--source-maps --out-file $FileNameWithoutExtension$.js --presets react $FilePath$" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Transpiles ECMAScript 6 code to ECMAScript 5" />
@@ -22,7 +22,7 @@
     <TaskOptions isEnabled="false">
       <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.js" />
       <option name="checkSyntaxErrors" value="true" />
-      <option name="description" value="Compresses .js files" />
+      <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
@@ -32,9 +32,9 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="Z:/yuicompressor-2.4.7/build/yuicompressor-2.4.7.jar" />
+      <option name="program" value="$USER_HOME$/www/yuicompressor-2.4.7.jar" />
       <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="true" />
+      <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
