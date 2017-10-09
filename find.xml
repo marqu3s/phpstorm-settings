@@ -16,11 +16,13 @@
       <mask>*.mxml</mask>
       <mask>UtilFunctions*</mask>
       <mask>*Helper*.php</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>.</mask>
+      <mask>.php</mask>
       <mask>*.php</mask>
       <mask>*.ph</mask>
       <mask>*.p</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
       <mask>*.</mask>
       <mask>*</mask>
     </recentFileMasks>
