@@ -1,9 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -24,11 +26,6 @@
       <mask>*.p</mask>
       <mask>*.</mask>
       <mask>*</mask>
-      <mask>s</mask>
-      <mask>sc</mask>
-      <mask>scss</mask>
-      <mask>*scss</mask>
-      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
