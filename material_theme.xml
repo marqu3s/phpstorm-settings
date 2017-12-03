@@ -4,6 +4,7 @@
     <option name="selectedTheme" value="ONE_DARK" />
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
+    <option name="highlightThickness" value="1" />
     <option name="isContrastMode" value="true" />
     <option name="accentColor" value="64ffda" />
     <option name="compactSidebar" value="true" />
