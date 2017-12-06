@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="@auth" value="@author $user$&#10;* @date $date$" shortcut="SPACE" description="Insere autor e data" toReformat="false" toShortenFQNames="true">
+    <variable name="user" expression="user()" defaultValue="João Marques &lt;joao@jjmf.com&gt;" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+</templateSet>
