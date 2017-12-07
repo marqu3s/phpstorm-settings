@@ -1,15 +1,11 @@
-<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2017-06-20T21:55:49</property>
+    <property name="created">2017-12-07T21:20:16</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2017.2.0.0</property>
+    <property name="ideVersion">2017.3.0.0</property>
     <property name="modified">2017-12-07T21:24:38</property>
-    <property name="originalScheme">Darcula</property>
+    <property name="originalScheme">Default</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
-  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="FILESTATUS_ADDED" value="73c990" />
     <option name="FILESTATUS_DELETED" value="59626f" />
