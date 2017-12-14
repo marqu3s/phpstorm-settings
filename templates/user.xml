@@ -6,4 +6,11 @@
       <option name="PHP Comment" value="true" />
     </context>
   </template>
+  <template name="hoje" value="$hoje = date('Y-m-d');" shortcut="SPACE" description="Variável com a data atual" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+      <option name="PHP String Literal" value="true" />
+    </context>
+  </template>
 </templateSet>
