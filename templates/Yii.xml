@@ -1,0 +1,27 @@
+<templateSet group="Yii">
+  <template name="queryall" value="$rs = Yii::$app-&gt;db-&gt;createCommand($sql)-&gt;queryAll();" shortcut="SPACE" description="DB queryAll" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="queryone" value="$rs = Yii::$app-&gt;db-&gt;createCommand($sql)-&gt;queryOne();" shortcut="SPACE" description="DB queryOne" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="dump" value="CVarDumper::dump($VAR$, 10, true); die;" shortcut="SPACE" description="Yii Vardumper" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dump2" value="\yii\helpers\VarDumper::dump($SELECTION$$END$, 10, !Yii::$app-&gt;request-&gt;isAjax); die;" shortcut="SPACE" description="Yii2 dumper" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
