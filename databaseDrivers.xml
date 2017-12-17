@@ -1,5 +1,9 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
+    <driver id="exasol">
+      <artifact name="Exasol" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="h2.unified">
       <artifact name="H2" use="true" />
       <option name="auto-sync" value="true" />
@@ -7,6 +11,7 @@
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="false" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
@@ -65,6 +70,7 @@
         </library>
       </artifact>
       <option name="auto-sync" value="false" />
+      <option name="send-app-info" value="false" />
       <option name="auto-commit" value="true" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqljdbc42.jar</url>
@@ -75,7 +81,7 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" version="5.1.40" />
+      <artifact name="MySQL Connector/J" use="true" version="5.1.44" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />

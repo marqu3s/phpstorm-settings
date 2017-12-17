@@ -1,26 +1,7 @@
 <templateSet group="PHP">
-  <template name="dump" value="CVarDumper::dump($VAR$, 10, true); die;" shortcut="SPACE" description="Yii Vardumper" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="dump2" value="\yii\helpers\VarDumper::dump($VAR$, 10, !Yii::$app-&gt;request-&gt;isAjax); die;" shortcut="SPACE" description="Yii2 dumper" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
   <template name="tryca" value="$trans = Yii::$app-&gt;db-&gt;beginTransaction();&#10;try {&#10;    $END$&#10;    $trans-&gt;commit();&#10;&#10;    //return true;&#10;} catch (\Exception $e) {&#10;    $trans-&gt;rollBack();&#10;&#10;    //return false;&#10;}" description="Try / Catch" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="hoje" value="$hoje = date('Y-m-d');" shortcut="SPACE" description="Variável com a data atual" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP Expression" value="true" />
-      <option name="PHP Statement" value="true" />
-      <option name="PHP String Literal" value="true" />
     </context>
   </template>
   <template name="psy" value="eval(\Psy\sh());" description="Psysh runtime developer console" toReformat="false" toShortenFQNames="true">
