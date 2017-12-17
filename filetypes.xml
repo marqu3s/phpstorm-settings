@@ -6,6 +6,7 @@
       <mapping pattern="SMSService" type="PHP" />
       <mapping pattern="_tabelaMapeamentoProva" type="PHP" />
       <mapping pattern="SaveGridPagininationBehavior" type="PHP" />
+      <mapping pattern="yii_test" type="PLAIN_TEXT" />
       <mapping pattern="yiic" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="exit" type="PLAIN_TEXT" />
