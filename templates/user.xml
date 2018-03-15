@@ -13,4 +13,9 @@
       <option name="PHP String Literal" value="true" />
     </context>
   </template>
+  <template name="swal" value="swal({&#10;    type: '$END$',&#10;    title: '',&#10;    text: ''&#10;}, function(confirm) {&#10;    if (confirm) {&#10;    }&#10;});" shortcut="SPACE" description="Sweet Alert" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
