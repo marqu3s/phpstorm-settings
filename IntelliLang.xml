@@ -10,6 +10,10 @@
       <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "*", "statement", "st").withText(string().matchesBrics("[\"'`] *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .*SET)|((CREATE|DROP|ALTER) +(TABLE|INDEX))) .*[\"'`]?")))]]></place>
       <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "flash.data.SQLStatement"))]]></place>
     </injection>
+    <injection language="HTML" injector-id="php">
+      <display-name>&quot;&lt;html&gt;&quot;</display-name>
+      <place disabled="true"><![CDATA[and(not(phpLiteralExpression().withSuperParent(2, phpFunctionReference().withName(or(string().startsWith("strip_tags"), string().startsWith("preg_"))))), phpLiteralMatchesBrics(".*\\</?<anyname>( .*)?(/)?>.*"))]]></place>
+    </injection>
     <injection language="RegExp" injector-id="php">
       <display-name>&lt;&lt;&lt; REGEXP</display-name>
       <place disabled="true"><![CDATA[phpLiteralExpression("REGEXP")]]></place>
