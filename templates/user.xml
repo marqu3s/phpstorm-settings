@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="dump2" value="\yii\helpers\VarDumper::dump($$END$$, 10, true); die;" description="Yii2 VarDumper" toReformat="false" toShortenFQNames="true">
+  <template name="dump2" value="\yii\helpers\VarDumper::dump($END$, 10, true); die;" description="Yii2 VarDumper" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
