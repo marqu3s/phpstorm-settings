@@ -1,21 +1,12 @@
 <templateSet group="user">
-  <template name="@auth" value="@author $user$&#10;* @date $date$" shortcut="SPACE" description="Insere autor e data" toReformat="false" toShortenFQNames="true">
-    <variable name="user" expression="user()" defaultValue="João Marques &lt;joao@jjmf.com&gt;" alwaysStopAt="true" />
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+  <template name="dump2" value="\yii\helpers\VarDumper::dump($END$, 10, true); die;" description="Yii2 VarDumper" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="PHP Comment" value="true" />
+      <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="hoje" value="$hoje = date('Y-m-d');" shortcut="SPACE" description="Variável com a data atual" toReformat="false" toShortenFQNames="true">
+  <template name="dump" value="CVarDumper::dump($END$, 10, true);" description="Yii1 VarDumper" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="PHP Expression" value="true" />
-      <option name="PHP Statement" value="true" />
-      <option name="PHP String Literal" value="true" />
-    </context>
-  </template>
-  <template name="swal" value="swal({&#10;    type: '$END$',&#10;    title: '',&#10;    text: ''&#10;}, function(confirm) {&#10;    if (confirm) {&#10;    }&#10;});" shortcut="SPACE" description="Sweet Alert" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
