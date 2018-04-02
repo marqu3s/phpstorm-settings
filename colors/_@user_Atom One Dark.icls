@@ -4,10 +4,9 @@
     <property name="created">2018-03-29T15:10:40</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-03-29T16:17:37</property>
+    <property name="modified">2018-03-29T21:41:18</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
     <option name="EDITOR_FONT_SIZE" value="14" />
@@ -1224,6 +1223,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="2f333d" />
+        <option name="BACKGROUND" value="37ff48" />
         <option name="EFFECT_COLOR" value="59626f" />
         <option name="ERROR_STRIPE_COLOR" value="4d6168" />
       </value>
@@ -3719,6 +3720,8 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="2f333d" />
+        <option name="BACKGROUND" value="37ff48" />
         <option name="EFFECT_COLOR" value="59626f" />
         <option name="ERROR_STRIPE_COLOR" value="4d6168" />
       </value>

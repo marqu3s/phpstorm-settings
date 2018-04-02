@@ -4,9 +4,4 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dump" value="CVarDumper::dump($END$, 10, true);" description="Yii1 VarDumper" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
 </templateSet>
