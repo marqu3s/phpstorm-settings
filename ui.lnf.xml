@@ -1,16 +1,18 @@
 <application>
   <component name="UISettings">
     <option name="ALLOW_MERGE_BUTTONS" value="false" />
-    <option name="FONT_FACE" value=".SF NS Text" />
+    <option name="EDITOR_AA_TYPE" value="Greyscale" />
+    <option name="FONT_FACE" value="Monospaced" />
     <option name="FONT_SCALE" value="1.0" />
     <option name="FONT_SIZE" value="14" />
+    <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
-    <option name="MAX_LOOKUP_WIDTH2" value="910" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="9" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="20" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
-    <option name="USE_SMALL_LABELS_ON_TABS" value="false" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>

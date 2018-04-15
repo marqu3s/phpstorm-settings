@@ -1,21 +1,23 @@
 <code_scheme name="Default" version="173">
   <PHPCodeStyleSettings>
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
+    <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
-    <option name="ELSE_IF_STYLE" value="COMBINE" />
-    <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
-    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
   </PHPCodeStyleSettings>
   <SqlCodeStyleSettings>
     <option name="INDENT_JOIN" value="false" />
-    <option name="INDENT_JOIN_CONDITION" value="false" />
-    <option name="NEW_LINE_AFTER_SELECT_2" value="2" />
-    <option name="NEW_LINE_AFTER_SELECT_ITEM" value="false" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="IDENTIFIER_CASE" value="1" />
   </SqlCodeStyleSettings>
   <codeStyleSettings language="PHP">
-    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
-    <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
