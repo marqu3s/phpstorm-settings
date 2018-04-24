@@ -1,16 +1,16 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;Yii.php;__pycache__;_svn;yiilite.php;" />
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;YiiCustom.php;__pycache__;_svn;yiilite.php;" />
     <extensionMap>
       <mapping pattern="README" type="Markdown" />
-      <mapping pattern="SMSService" type="PHP" />
-      <mapping pattern="_tabelaMapeamentoProva" type="PHP" />
       <mapping pattern="SaveGridPagininationBehavior" type="PHP" />
-      <mapping pattern="yii_test" type="PLAIN_TEXT" />
+      <mapping pattern="_tabelaMapeamentoProva" type="PHP" />
+      <mapping pattern="SMSService" type="PHP" />
       <mapping pattern="yiic" type="PLAIN_TEXT" />
+      <mapping pattern="api-doc" type="PLAIN_TEXT" />
+      <mapping pattern="yii_test" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="exit" type="PLAIN_TEXT" />
-      <mapping pattern="api-doc" type="PLAIN_TEXT" />
       <mapping ext="bkp" type="PLAIN_TEXT" />
       <mapping ext="p12" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
