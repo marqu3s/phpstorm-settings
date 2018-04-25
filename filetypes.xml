@@ -1,6 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;YiiCustom.php;__pycache__;_svn;yiilite.php;" />
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;Yii.php;__pycache__;_svn;yiilite.php;" />
     <extensionMap>
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="SaveGridPagininationBehavior" type="PHP" />
