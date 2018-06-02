@@ -1,5 +1,7 @@
 <application>
   <component name="Yii2 Support">
-    <option name="version" value="0.9.54.5" />
+    <option name="version" value="0.9.54.9" />
+    <option name="uuid" value="fb5f2cbb-04c8-4a69-8b75-d3d7aacab3fe" />
+    <option name="username" value="fb5f2cbb-04c8-4a69-8b75-d3d7aacab3fe" />
   </component>
 </application>
