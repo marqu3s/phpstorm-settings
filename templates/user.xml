@@ -22,4 +22,25 @@
       <option name="PHP Comment" value="false" />
     </context>
   </template>
+  <template name="queryall" value="Yii::$app-&gt;db-&gt;createCommand($sql)-&gt;queryAll();" description="QueryAll" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="querycol" value="Yii::$app-&gt;db-&gt;createCommand($sql)-&gt;queryColumn();" description="QueryColumn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="transaction" value="$trans = Yii::$app-&gt;db-&gt;beginTransaction();&#10;try {&#10;    $END$&#10;    &#10;    $trans-&gt;commit();&#10;} catch (\Exception $e) {&#10;&#10;    $trans-&gt;rollBack();&#10;}" description="DB Transaction" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
 </templateSet>

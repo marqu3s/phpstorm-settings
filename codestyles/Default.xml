@@ -6,6 +6,10 @@
     <option name="LOWER_CASE_NULL_CONST" value="true" />
     <option name="FIELDS_DEFAULT_VISIBILITY" value="public" />
     <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
+    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
+    <option name="BLANK_LINES_AFTER_FUNCTION" value="3" />
+    <option name="KEEP_BLANK_LINES_AFTER_LBRACE" value="1" />
+    <option name="SPACE_BETWEEN_TERNARY_QUEST_AND_COLON" value="true" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
   </PHPCodeStyleSettings>
   <SqlCodeStyleSettings>
@@ -16,6 +20,8 @@
   <codeStyleSettings language="PHP">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
   </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <indentOptions>
