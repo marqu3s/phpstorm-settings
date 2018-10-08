@@ -1,6 +1,16 @@
 <application>
-  <component name="GithubSettings">
-    <option name="LOGIN" value="joao@jjmf.com" />
-    <option name="AUTH_TYPE" value="BASIC" />
+  <component name="GithubAccounts">
+    <account id="25840a94-03c6-4731-963a-b868ea01f178" name="joao@jjmf.com">
+      <server host="github.com" />
+    </account>
+    <account id="adba4e72-bf58-4893-bc26-753983c58d78" name="joao@jjmf.com">
+      <server host="github.com" />
+    </account>
+    <account id="92eb2956-25dd-4fa8-931b-fa9dd1993cf0" name="marqu3s">
+      <server host="github.com" />
+    </account>
+    <account id="bf5b56ef-0fc3-4cdc-b1f8-ccbf9b86dda9" name="marqu3s">
+      <server host="github.com" />
+    </account>
   </component>
 </application>
