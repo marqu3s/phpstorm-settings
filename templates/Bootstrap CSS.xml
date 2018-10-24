@@ -1,0 +1,7 @@
+<templateSet group="Bootstrap CSS">
+  <template name="modal" value="&lt;div class=&quot;modal fade&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot;&gt;&#10;  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;&#10;    &lt;div class=&quot;modal-content&quot;&gt;&#10;      &lt;div class=&quot;modal-header&quot;&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;&#10;        &lt;h4 class=&quot;modal-title&quot;&gt;Modal title&lt;/h4&gt;&#10;      &lt;/div&gt;&#10;      &lt;div class=&quot;modal-body&quot;&gt;&#10;        &lt;p&gt;One fine body&amp;hellip;&lt;/p&gt;&#10;      &lt;/div&gt;&#10;      &lt;div class=&quot;modal-footer&quot;&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&lt;!-- /.modal-content --&gt;&#10;  &lt;/div&gt;&lt;!-- /.modal-dialog --&gt;&#10;&lt;/div&gt;&lt;!-- /.modal --&gt;" description="Bootstrap modal" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
